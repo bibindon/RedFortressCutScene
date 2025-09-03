@@ -2,7 +2,7 @@
 
 #include <tchar.h>
 
-using namespace NSCutScenelib;
+using namespace NSCutScene;
 
 void Action::Init(const std::vector<std::wstring>& scriptLine,
                   IModelCreator* modelCreator,

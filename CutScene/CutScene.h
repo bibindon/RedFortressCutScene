@@ -4,7 +4,7 @@
 #include <vector>
 #include <chrono>
 
-namespace NSCutScenelib
+namespace NSCutScene
 {
 class ISprite
 {

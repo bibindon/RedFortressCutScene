@@ -4,9 +4,9 @@
 #include <deque>
 #include <tchar.h>
 
-using namespace NSCutScenelib;
+using namespace NSCutScene;
 
-std::vector<std::wstring> NSCutScenelib::split(const std::wstring& s, wchar_t delim)
+std::vector<std::wstring> NSCutScene::split(const std::wstring& s, wchar_t delim)
 {
     std::vector<std::wstring> result;
     std::wstringstream ss(s);

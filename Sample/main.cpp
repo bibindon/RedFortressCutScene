@@ -24,7 +24,7 @@
 #include <stdlib.h>
 #include <crtdbg.h>
 
-using namespace NSCutScenelib;
+using namespace NSCutScene;
 
 LPDIRECT3DDEVICE9   g_D3DDevice;
 LPDIRECT3D9         g_D3D;
