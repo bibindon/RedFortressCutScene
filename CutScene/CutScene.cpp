@@ -175,3 +175,16 @@ void CutScene::Finalize()
     m_SE = nullptr;
 }
 
+void CutScene::OnDeviceLost()
+{
+    m_sprFade->OnDeviceLost();
+    m_sprTextBack->OnDeviceLost();
+    m_font->OnDeviceLost();
+}
+
+void CutScene::OnDeviceReset()
+{
+    m_sprFade->OnDeviceReset();
+    m_sprTextBack->OnDeviceReset();
+    m_font->OnDeviceReset();
+}
